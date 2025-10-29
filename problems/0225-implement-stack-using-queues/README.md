@@ -6,8 +6,8 @@
 
 ## ⚡ Submission Stats
 - **Language:** `C++`
-- **Runtime:** `0 ms`
-- **Memory:** `9.6 MB`
+- **Runtime:** `1 ms`
+- **Memory:** `9.5 MB`
 - **Solved Date:** October 29, 2025 (17:09 UTC)
 
 ---
