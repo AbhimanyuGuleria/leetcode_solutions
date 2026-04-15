@@ -1,19 +1,3 @@
-# 496. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
-
-## 📌 Problem Information
-- **Difficulty:** 🟢 Easy
-- **LeetCode Link:** [https://leetcode.com/problems/next-greater-element-i/](https://leetcode.com/problems/next-greater-element-i/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `4 ms`
-- **Memory:** `45.4 MB`
-- **Solved Date:** April 15, 2026 (16:17 UTC)
-
----
-
-## 💻 Solution
-```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         java.util.Map<Integer, Integer> map = new java.util.HashMap<>();
@@ -35,4 +19,3 @@ class Solution {
         return result;
     }
 }
-```
