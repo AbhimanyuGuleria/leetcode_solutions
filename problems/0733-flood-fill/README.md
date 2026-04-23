@@ -1,0 +1,42 @@
+# 733. [Flood Fill](https://leetcode.com/problems/flood-fill/)
+
+## 📌 Problem Information
+- **Difficulty:** 🟢 Easy
+- **LeetCode Link:** [https://leetcode.com/problems/flood-fill/](https://leetcode.com/problems/flood-fill/)
+
+## ⚡ Submission Stats
+- **Language:** `Java`
+- **Runtime:** `0 ms`
+- **Memory:** `47.1 MB`
+- **Solved Date:** April 23, 2026 (10:38 UTC)
+
+---
+
+## 💻 Solution
+```java
+class Solution {
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int originalColor = image[sr][sc];
+        
+        if (originalColor != color) {
+            dfs(image, sr, sc, originalColor, color);
+        }
+        
+        return image;
+    }
+    
+    private void dfs(int[][] image, int r, int c, int originalColor, int newColor) {
+        if (r < 0 || r >= image.length || c < 0 || c >= image[0].length || image[r][c] != originalColor) {
+            return;
+        }
+        
+        image[r][c] = newColor;
+        
+        dfs(image, r + 1, c, originalColor, newColor);
+        dfs(image, r - 1, c, originalColor, newColor);
+        dfs(image, r, c + 1, originalColor, newColor);
+        dfs(image, r, c - 1, originalColor, newColor);
+    }
+}
+
+```
