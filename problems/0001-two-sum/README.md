@@ -7,8 +7,8 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `2 ms`
-- **Memory:** `47.1 MB`
-- **Solved Date:** May 01, 2026 (11:06 UTC)
+- **Memory:** `47.4 MB`
+- **Solved Date:** June 08, 2026 (06:40 UTC)
 
 ---
 
@@ -16,19 +16,16 @@
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        java.util.Map<Integer, Integer> map = new java.util.HashMap<>();
-        
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            
-            if (map.containsKey(complement)) {
-                return new int[] {map.get(complement), i};
-            }
-            
-            map.put(nums[i], i);
+        HashMap<Integer, Integer> map = new HashMap<>(); //value:index
+        for(int i = 0; i<nums.length; i++){
+            int num = nums[i];
+            int rem = target - num;
+             if(map.containsKey(rem)){
+                return new int[]{i, map.get(rem)};
+             }
+             map.put(num, i);
         }
-        
-        return new int[] {};
-    }
+        return new int[]{};
+}
 }
 ```
