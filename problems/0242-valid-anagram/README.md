@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `16 ms`
-- **Memory:** `46.9 MB`
-- **Solved Date:** June 09, 2026 (06:25 UTC)
+- **Runtime:** `5 ms`
+- **Memory:** `44.3 MB`
+- **Solved Date:** June 09, 2026 (06:59 UTC)
 
 ---
 
@@ -16,32 +16,20 @@
 ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        if(s.length() != t.length()){
+       int [] count = new int[26];
+       if(s.length() != t.length()){
+        return false;
+       }
+       for(int i = 0;i < s.length(); i++){
+            count[s.charAt(i) - 'a']++;
+            count[t.charAt(i) - 'a']--;
+       }
+       for(int v : count){
+        if(v!=0){
             return false;
         }
-        for(int i = 0; i<s.length(); i++){
-            char c = s.charAt(i);
-            if(map.containsKey(c)){
-                map.put(c, map.get(c)+1);
-            }else{
-                map.put(c, 1);
-            }
-        }
-        for(int i=0; i<t.length();i++){
-            char c = t.charAt(i);
-            if(map.containsKey(c)){
-                map.put(c, map.get(c)-1);
-            }else{
-                return false;
-            }
-        }
-        for(int v : map.values()){
-            if(v!=0){
-                return false;
-            }
-        }
-        return true;
+       }
+       return true;
     }
 }
 ```
