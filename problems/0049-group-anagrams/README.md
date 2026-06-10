@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `7 ms`
-- **Memory:** `49.4 MB`
-- **Solved Date:** June 10, 2026 (06:53 UTC)
+- **Runtime:** `19 ms`
+- **Memory:** `50.5 MB`
+- **Solved Date:** June 10, 2026 (07:51 UTC)
 
 ---
 
@@ -19,15 +19,25 @@ class Solution {
         HashMap<String, List<String>> map = new HashMap<>();
         for(int i = 0; i<strs.length; i++){
             String word = strs[i];
-            char[] arr = word.toCharArray();
-            Arrays.sort(arr);
 
-            String key = new String(arr);
+            int [] count = new int[26];
+
+            for(int j =0; j<word.length(); j++){
+                count[word.charAt(j) - 'a']++;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            for(int num : count){
+                sb.append('#');
+                sb.append(num);
+            }
+
+            String key = sb.toString();
 
             if(!map.containsKey(key)){
                 map.put(key, new ArrayList<>());
             }
-            map.get(key).add(word);            
+            map.get(key).add(word);
         }
         return new ArrayList<>(map.values());
     }
