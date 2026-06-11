@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `11 ms`
-- **Memory:** `47.3 MB`
-- **Solved Date:** April 17, 2026 (05:46 UTC)
+- **Runtime:** `13 ms`
+- **Memory:** `47.4 MB`
+- **Solved Date:** June 11, 2026 (06:50 UTC)
 
 ---
 
@@ -16,34 +16,41 @@
 ```java
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        java.util.Map<Integer, Integer> countMap = new java.util.HashMap<>();
-        
-        for (int i = 0; i < nums.length; i++) {
-            countMap.put(nums[i], countMap.getOrDefault(nums[i], 0) + 1);
-        }
-        
-        java.util.List<Integer>[] buckets = new java.util.List[nums.length + 1];
-        
-        for (int key : countMap.keySet()) {
-            int frequency = countMap.get(key);
-            if (buckets[frequency] == null) {
-                buckets[frequency] = new java.util.ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i< nums.length; i++){
+            int num = nums[i];
+            if(map.containsKey(num)){
+                map.put(num, map.get(num)+1);
+            }else{
+                map.put(num, 1);
             }
-            buckets[frequency].add(key);
         }
-        
+        //create a bucket
+        List<Integer>[] bucket = new ArrayList[nums.length + 1];
+
+        //place numbers into bucket
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()){
+            int num = entry.getKey();
+            int freq = entry.getValue();
+
+            if(bucket[freq] == null){
+                bucket[freq] = new ArrayList<>();
+            }
+            bucket[freq].add(num);
+        }
+
+        //collect top k frequent elements
         int[] result = new int[k];
         int index = 0;
-        
-        for (int i = buckets.length - 1; i >= 0 && index < k; i--) {
-            if (buckets[i] != null) {
-                for (int j = 0; j < buckets[i].size() && index < k; j++) {
-                    result[index] = buckets[i].get(j);
+
+        for(int i = bucket.length -1; i>=0 && index < k; i--){
+            if(bucket[i] != null){
+                for(int j = 0; j < bucket[i].size() && index < k; j++){
+                    result[index] = bucket[i].get(j);
                     index++;
                 }
             }
         }
-        
         return result;
     }
 }
