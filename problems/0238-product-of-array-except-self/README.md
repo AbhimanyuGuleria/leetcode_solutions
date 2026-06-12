@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `2 ms`
-- **Memory:** `72.2 MB`
-- **Solved Date:** June 12, 2026 (07:37 UTC)
+- **Runtime:** `3 ms`
+- **Memory:** `64.7 MB`
+- **Solved Date:** June 12, 2026 (07:06 UTC)
 
 ---
 
@@ -16,15 +16,21 @@
 ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        int[] ans = new int[nums.length];
-        ans[0] = 1;
-        for(int i = 1; i <nums.length; i++){
-            ans[i] = ans[i-1] * nums[i-1];
+        int[] left = new int[nums.length];
+        left[0] = 1;
+        for(int i = 1; i<nums.length; i++){
+            left[i] = left[i-1] * nums[i-1];
         }
-        int rightProduct = 1;
-        for(int i = nums.length -1; i >= 0; i--){
-            ans[i] *= rightProduct;
-            rightProduct *= nums[i];
+
+        int[] right = new int[nums.length];
+        right[nums.length - 1] = 1;
+        for(int i = nums.length - 2; i>=0; i--){
+            right[i] = right[i+1] * nums[i+1];
+        }
+
+        int[] ans = new int[nums.length];
+        for(int i = 0; i < nums.length; i++){
+            ans[i] = right[i] * left[i];
         }
         return ans;
     }
