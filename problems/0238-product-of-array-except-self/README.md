@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `3 ms`
-- **Memory:** `64.7 MB`
-- **Solved Date:** June 12, 2026 (07:06 UTC)
+- **Runtime:** `4 ms`
+- **Memory:** `64 MB`
+- **Solved Date:** June 12, 2026 (07:14 UTC)
 
 ---
 
@@ -22,15 +22,13 @@ class Solution {
             left[i] = left[i-1] * nums[i-1];
         }
 
-        int[] right = new int[nums.length];
-        right[nums.length - 1] = 1;
-        for(int i = nums.length - 2; i>=0; i--){
-            right[i] = right[i+1] * nums[i+1];
-        }
-
         int[] ans = new int[nums.length];
-        for(int i = 0; i < nums.length; i++){
-            ans[i] = right[i] * left[i];
+        ans[nums.length - 1] = 1;
+        for(int i = nums.length - 2; i>=0; i--){
+            ans[i] = ans[i+1] * nums[i+1];
+        }
+        for(int i = 0; i<nums.length; i++){
+             ans[i]*=left[i];
         }
         return ans;
     }
