@@ -1,0 +1,42 @@
+# 128. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+## 📌 Problem Information
+- **Difficulty:** 🟡 Medium
+- **LeetCode Link:** [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+## ⚡ Submission Stats
+- **Language:** `Java`
+- **Runtime:** `32 ms`
+- **Memory:** `95.6 MB`
+- **Solved Date:** June 13, 2026 (07:46 UTC)
+
+---
+
+## 💻 Solution
+```java
+class Solution {
+    public int longestConsecutive(int[] nums) {
+      HashSet<Integer> set = new HashSet<>();
+      for(int i = 0; i<nums.length; i++){
+        int num = nums[i];
+        set.add(num);
+      }  
+      int longest = 0;
+      for(int num : set){
+        if(!set.contains(num - 1)){
+            int current = num;
+            int length = 1;
+
+            while(set.contains(current+1)){
+                current++;
+                length++;
+            }
+
+            longest = Math.max(longest, length);
+
+        }
+      }
+      return longest;
+    } 
+}
+```
