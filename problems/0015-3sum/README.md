@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `29 ms`
-- **Memory:** `59 MB`
-- **Solved Date:** June 14, 2026 (08:15 UTC)
+- **Runtime:** `31 ms`
+- **Memory:** `59.2 MB`
+- **Solved Date:** June 14, 2026 (08:16 UTC)
 
 ---
 
@@ -19,7 +19,7 @@ class Solution {
         
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
-        for(int i =0; i < nums.length; i++){
+        for(int i =0; i < nums.length-2; i++){
             if(i>0 && nums[i] == nums[i-1]){
                 continue;
             }
