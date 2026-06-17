@@ -1,19 +1,3 @@
-# 42. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-
-## 📌 Problem Information
-- **Difficulty:** 🔴 Hard
-- **LeetCode Link:** [https://leetcode.com/problems/trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `0 ms`
-- **Memory:** `47.7 MB`
-- **Solved Date:** June 17, 2026 (11:07 UTC)
-
----
-
-## 💻 Solution
-```java
 class Solution {
     public int trap(int[] height) {
         int left = 0;
@@ -46,4 +30,3 @@ class Solution {
             return water;
     }
 }
-```
