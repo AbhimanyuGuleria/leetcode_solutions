@@ -7,8 +7,8 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `7 ms`
-- **Memory:** `43.9 MB`
-- **Solved Date:** June 20, 2026 (07:57 UTC)
+- **Memory:** `44.1 MB`
+- **Solved Date:** June 20, 2026 (08:03 UTC)
 
 ---
 
@@ -18,9 +18,7 @@ class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int [] s1Count = new int[26];
         int [] windowCount = new int[26];
-        
-   
-
+       
         if(s1.length() > s2.length()){
             return false;
         }
