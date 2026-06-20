@@ -16,7 +16,7 @@ class Solution {
         }
         if(Arrays.equals(s1Count, windowCount)){
             return true;
-        }else{
+        }
             for(int right = s1.length(); right < s2.length(); right++){
                 windowCount[s2.charAt(right) - 'a']++;
                 windowCount[s2.charAt(right - s1.length()) - 'a']--;
@@ -25,7 +25,7 @@ class Solution {
                 return true;
                 }
             }
-        }
+        
     return false;
     }
 }

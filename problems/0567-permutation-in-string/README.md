@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `5 ms`
-- **Memory:** `44.1 MB`
-- **Solved Date:** June 20, 2026 (07:55 UTC)
+- **Runtime:** `7 ms`
+- **Memory:** `43.9 MB`
+- **Solved Date:** June 20, 2026 (07:57 UTC)
 
 ---
 
@@ -32,7 +32,7 @@ class Solution {
         }
         if(Arrays.equals(s1Count, windowCount)){
             return true;
-        }else{
+        }
             for(int right = s1.length(); right < s2.length(); right++){
                 windowCount[s2.charAt(right) - 'a']++;
                 windowCount[s2.charAt(right - s1.length()) - 'a']--;
@@ -41,7 +41,7 @@ class Solution {
                 return true;
                 }
             }
-        }
+        
     return false;
     }
 }
