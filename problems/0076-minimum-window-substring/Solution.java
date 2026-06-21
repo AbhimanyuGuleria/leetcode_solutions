@@ -1,19 +1,3 @@
-# 76. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-
-## 📌 Problem Information
-- **Difficulty:** 🔴 Hard
-- **LeetCode Link:** [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `21 ms`
-- **Memory:** `47.8 MB`
-- **Solved Date:** June 21, 2026 (07:22 UTC)
-
----
-
-## 💻 Solution
-```java
 class Solution {
     public String minWindow(String s, String t) {
         HashMap<Character, Integer> targetMap = new HashMap<>();
@@ -55,4 +39,3 @@ class Solution {
         return minLength == Integer.MAX_VALUE ? "" : s.substring(start, start+minLength);
     }
 }
-```
