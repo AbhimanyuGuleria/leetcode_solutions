@@ -14,10 +14,10 @@ class Solution {
                 if(top == '(' && current != ')'){
                     return false;
                 }
-                if(top == '[' && current != ']'){
+                else if(top == '[' && current != ']'){
                     return false;
                 }
-                if(top == '{' && current != '}'){
+                else if(top == '{' && current != '}'){
                     return false;
                 }
 
