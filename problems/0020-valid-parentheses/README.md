@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `3 ms`
-- **Memory:** `43.2 MB`
-- **Solved Date:** June 23, 2026 (10:15 UTC)
+- **Runtime:** `5 ms`
+- **Memory:** `43.4 MB`
+- **Solved Date:** June 23, 2026 (10:12 UTC)
 
 ---
 
@@ -30,10 +30,10 @@ class Solution {
                 if(top == '(' && current != ')'){
                     return false;
                 }
-                else if(top == '[' && current != ']'){
+                if(top == '[' && current != ']'){
                     return false;
                 }
-                else if(top == '{' && current != '}'){
+                if(top == '{' && current != '}'){
                     return false;
                 }
 
