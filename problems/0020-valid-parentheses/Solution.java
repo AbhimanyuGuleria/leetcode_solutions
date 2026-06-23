@@ -1,19 +1,3 @@
-# 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-
-## 📌 Problem Information
-- **Difficulty:** 🟢 Easy
-- **LeetCode Link:** [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `5 ms`
-- **Memory:** `43.4 MB`
-- **Solved Date:** June 23, 2026 (10:12 UTC)
-
----
-
-## 💻 Solution
-```java
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
@@ -44,4 +28,3 @@ class Solution {
 
     }
 }
-```
