@@ -1,19 +1,3 @@
-# 155. [Min Stack](https://leetcode.com/problems/min-stack/)
-
-## 📌 Problem Information
-- **Difficulty:** 🟡 Medium
-- **LeetCode Link:** [https://leetcode.com/problems/min-stack/](https://leetcode.com/problems/min-stack/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `35 ms`
-- **Memory:** `99.9 MB`
-- **Solved Date:** June 24, 2026 (11:10 UTC)
-
----
-
-## 💻 Solution
-```java
 class MinStack {
     Stack<Integer> stack;
     Stack<Integer> minStack;
@@ -54,4 +38,3 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
