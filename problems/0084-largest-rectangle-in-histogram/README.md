@@ -1,0 +1,40 @@
+# 84. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+## 📌 Problem Information
+- **Difficulty:** 🔴 Hard
+- **LeetCode Link:** [https://leetcode.com/problems/largest-rectangle-in-histogram/](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+## ⚡ Submission Stats
+- **Language:** `Java`
+- **Runtime:** `69 ms`
+- **Memory:** `78.6 MB`
+- **Solved Date:** July 01, 2026 (06:30 UTC)
+
+---
+
+## 💻 Solution
+```java
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
+
+        for(int i = 0; i <= heights.length; i++){
+            int currentHeight = (i == heights.length) ? 0 : heights[i];
+
+            while(!stack.isEmpty() && currentHeight < heights[stack.peek()]){
+                int height = heights[stack.pop()];
+
+                int prevSmaller = stack.isEmpty() ? -1 : stack.peek();
+
+                int width = i - prevSmaller - 1;
+                int area = height * width;
+
+                maxArea = Math.max(maxArea, area);
+            }
+            stack.push(i);
+        }
+        return maxArea;
+    }
+}
+```
