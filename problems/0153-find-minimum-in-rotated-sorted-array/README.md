@@ -7,7 +7,7 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `0 ms`
-- **Memory:** `43.9 MB`
+- **Memory:** `44 MB`
 - **Solved Date:** July 09, 2026 (05:52 UTC)
 
 ---
@@ -28,7 +28,7 @@ class Solution {
                 right = mid;
             }
         }
-        return nums[left];
+        return nums[right];
     }
 }
 ```
