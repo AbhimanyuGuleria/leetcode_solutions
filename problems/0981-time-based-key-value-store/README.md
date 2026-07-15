@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `142 ms`
-- **Memory:** `108.2 MB`
-- **Solved Date:** July 12, 2026 (05:37 UTC)
+- **Runtime:** `137 ms`
+- **Memory:** `108.4 MB`
+- **Solved Date:** July 15, 2026 (05:58 UTC)
 
 ---
 
@@ -23,26 +23,20 @@ class Pair{
         this.value = value;
     }
 }
-
 class TimeMap {
-
     HashMap<String, List<Pair>> map;
-
     public TimeMap() {
         map = new HashMap<>();
     }
-
+    
     public void set(String key, String value, int timestamp) {
-
         if(!map.containsKey(key)){
             map.put(key, new ArrayList<>());
         }
-
         map.get(key).add(new Pair(timestamp, value));
     }
-
+    
     public String get(String key, int timestamp) {
-
         if(!map.containsKey(key)){
             return "";
         }
@@ -50,27 +44,23 @@ class TimeMap {
         List<Pair> list = map.get(key);
 
         int left = 0;
-        int right = list.size() - 1;
-
+        int right = list.size() -1;
         String ans = "";
 
-        while(left <= right){
-
+        while(left<=right){
             int mid = left + (right-left)/2;
 
             if(list.get(mid).timestamp == timestamp){
-                return list.get(mid).value;
+                ans = list.get(mid).value;
             }
 
             if(list.get(mid).timestamp < timestamp){
                 ans = list.get(mid).value;
                 left = mid + 1;
-            }
-            else{
-                right = mid - 1;
+            }else{
+                right = mid -1;
             }
         }
-
         return ans;
     }
 }
