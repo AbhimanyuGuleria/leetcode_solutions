@@ -1,19 +1,3 @@
-# 4. [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-
-## 📌 Problem Information
-- **Difficulty:** 🔴 Hard
-- **LeetCode Link:** [https://leetcode.com/problems/median-of-two-sorted-arrays/](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `1 ms`
-- **Memory:** `48.8 MB`
-- **Solved Date:** July 15, 2026 (06:04 UTC)
-
----
-
-## 💻 Solution
-```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -57,4 +41,3 @@ class Solution {
         return 0;
     }
 }
-```
