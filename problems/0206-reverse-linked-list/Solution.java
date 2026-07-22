@@ -1,19 +1,3 @@
-# 206. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-
-## 📌 Problem Information
-- **Difficulty:** 🟢 Easy
-- **LeetCode Link:** [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
-
-## ⚡ Submission Stats
-- **Language:** `Java`
-- **Runtime:** `0 ms`
-- **Memory:** `44.2 MB`
-- **Solved Date:** July 22, 2026 (17:27 UTC)
-
----
-
-## 💻 Solution
-```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +22,3 @@ class Solution {
         return previous;
     }
 }
-```
