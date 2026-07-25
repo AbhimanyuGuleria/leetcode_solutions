@@ -7,23 +7,13 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `0 ms`
-- **Memory:** `43.8 MB`
-- **Solved Date:** July 30, 2026 (14:36 UTC)
+- **Memory:** `43.5 MB`
+- **Solved Date:** July 25, 2026 (05:57 UTC)
 
 ---
 
 ## 💻 Solution
 ```java
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 /**
  * Definition for singly-linked list.
  * public class ListNode {
