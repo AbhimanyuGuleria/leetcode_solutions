@@ -7,8 +7,8 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `0 ms`
-- **Memory:** `46.9 MB`
-- **Solved Date:** April 12, 2026 (09:30 UTC)
+- **Memory:** `46.5 MB`
+- **Solved Date:** July 27, 2026 (12:47 UTC)
 
 ---
 
@@ -27,24 +27,21 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        if (head == null) {
-            return false;
-        }
-        
-        ListNode slow = head;
-        ListNode fast = head;
-        
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-            
-            if (slow == fast) {
-                return true;
-            }
-        }
-        
+     if(head == null || head.next == null){
         return false;
+     }   
+     ListNode slow = head;
+     ListNode fast = head;
+
+     while(fast != null && fast.next != null){
+        slow = slow.next;
+        fast = fast.next.next;
+
+        if(fast == slow){
+            return true;
+        }
+     }
+     return false;
     }
 }
-
 ```
