@@ -7,8 +7,8 @@
 ## ⚡ Submission Stats
 - **Language:** `Java`
 - **Runtime:** `1 ms`
-- **Memory:** `49 MB`
-- **Solved Date:** July 16, 2026 (06:38 UTC)
+- **Memory:** `48.8 MB`
+- **Solved Date:** August 01, 2026 (09:17 UTC)
 
 ---
 
