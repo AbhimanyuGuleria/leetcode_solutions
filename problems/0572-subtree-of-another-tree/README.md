@@ -6,9 +6,9 @@
 
 ## ⚡ Submission Stats
 - **Language:** `Java`
-- **Runtime:** `3 ms`
+- **Runtime:** `5 ms`
 - **Memory:** `46.3 MB`
-- **Solved Date:** August 05, 2026 (05:37 UTC)
+- **Solved Date:** August 05, 2026 (05:36 UTC)
 
 ---
 
@@ -39,18 +39,18 @@ class Solution {
         }
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
     }
-    private boolean isSameTree(TreeNode p, TreeNode q){
-        if(p == null && q == null){
+    private boolean isSameTree(TreeNode root, TreeNode subRoot){
+        if(root == null && subRoot == null){
             return true;
         }
-        if(p == null || q == null){
+        if(root == null || subRoot == null){
             return false;
         }
-        if(p.val != q.val){
+        if(root.val != subRoot.val){
             return false;
         }
 
-        return isSameTree(p.left ,q.left) && isSameTree(p.right, q.right);
+        return isSameTree(root.left ,subRoot.left) && isSameTree(root.right, subRoot.right);
     }
 }
 ```
