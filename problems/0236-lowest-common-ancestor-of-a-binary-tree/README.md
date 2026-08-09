@@ -8,7 +8,7 @@
 - **Language:** `Java`
 - **Runtime:** `16 ms`
 - **Memory:** `69.9 MB`
-- **Solved Date:** August 08, 2026 (09:09 UTC)
+- **Solved Date:** August 09, 2026 (09:59 UTC)
 
 ---
 
