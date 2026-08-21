@@ -8,33 +8,41 @@
 - **Language:** `Java`
 - **Runtime:** `0 ms`
 - **Memory:** `43.3 MB`
-- **Solved Date:** April 26, 2026 (08:27 UTC)
+- **Solved Date:** August 21, 2026 (13:40 UTC)
 
 ---
 
 ## 💻 Solution
 ```java
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode curr = root;
-
-        while (curr != null || !stack.isEmpty()) {
-            while (curr != null) {
-                stack.push(curr);
-                curr = curr.left;
-            }
-            curr = stack.pop();
-            result.add(curr.val);
-            curr = curr.right;
+        inorder(root, result);
+        return result;
+    }
+    private void inorder(TreeNode root, List<Integer> result){
+        if(root == null){
+            return;
         }
 
-        return result;
+        inorder(root.left, result);
+        result.add(root.val);
+        inorder(root.right, result);
     }
 }
 ```
