@@ -117,12 +117,14 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 ## Binary Search Tree
@@ -132,6 +134,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -147,4 +150,8 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 <!---LeetCode Topics End-->
