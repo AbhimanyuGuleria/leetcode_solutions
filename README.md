@@ -121,12 +121,14 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,6 +140,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -150,8 +153,17 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
