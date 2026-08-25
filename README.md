@@ -120,6 +120,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -141,6 +142,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -170,4 +172,16 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 <!---LeetCode Topics End-->
