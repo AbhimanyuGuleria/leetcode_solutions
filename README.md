@@ -124,6 +124,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -132,6 +133,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -146,6 +148,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -160,6 +163,7 @@ Automated repository archiving my LeetCode solutions, complete with execution me
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0112-path-sum](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0112-path-sum/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/AbhimanyuGuleria/leetcode_solutions/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
